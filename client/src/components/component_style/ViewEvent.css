@@ -1,0 +1,170 @@
+/*Main Items*/
+.main {
+    text-align: center;
+}
+
+.manageEvent {
+    background-color: pink;
+}
+
+.options {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+/*containers for view results boxes*/
+
+.saveItems {
+    display: flex;
+    margin: auto;
+    margin: 0 12% 0 12%;
+    flex-wrap: wrap;
+}
+
+.sheetsExport {
+    width: 100%;
+    min-width: 200px;
+    display: flex;
+}
+
+/*Sheet Set Up Box*/
+.weights {
+    margin-right: 20px !important;
+}
+
+.urlField {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#checkmark {
+    padding-bottom: 1.5%;
+    padding-left: 1.5%;
+}
+
+.box {
+    border: 2px solid #03a9f4;
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 150%;
+    text-align: left;
+    padding: 0 1px 0 1px;
+}
+
+.box > * {
+    cursor: pointer;
+}
+
+.box > *:nth-child(odd) {
+    background-color: #EEE;
+}
+
+.sheetURL {
+    min-width: 100px;
+    width: 60%;
+}
+
+.instructions {
+    border: 2px solid #03a9f4;
+    text-align: left;
+    font-size: 105%;
+    width: 50%;
+    /*padding: 1px;*/
+}
+
+/*Bottom Menu Box*/
+
+.bottomMenu {
+    border: 2px solid #03a9f4;
+    width: 100%;
+    font-size: 150%;
+    padding: 0 1px 0 1px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottomMenu > * {
+    cursor: pointer;
+}
+
+.bottomMenu > *:nth-child(1) {
+    background-color: #EEE;
+}
+
+.bottomMenu > *:nth-child(4) {
+    background-color: #EEE;
+}
+
+.resultsOption {
+    flex: 1 0 50%;
+}
+
+.button1 {
+    margin: 10px !important;
+}
+
+#buttons {
+    margin: 10px;
+}
+
+.listButtons {
+    display: flex;
+    width: 100%;
+}
+
+#itemTitle {
+    text-align: center;
+}
+
+.statistics {
+    border: 2px solid #03a9f4;
+    text-align: left;
+    font-size: 105%;
+    width: 50%;
+    display: flex;
+    flex-direction: column; 
+}
+
+#top3 {
+    margin-left: 8%;
+}
+
+.note {
+    margin-left: 5%;
+    padding-top: 1%;
+    opacity: .6;
+}
+
+.instructions > * {
+    padding: 1%;
+}
+
+.statistics > * {
+    padding: 1%;
+}
+
+.refreshButton {
+    justify-content: center;
+    align-self: center;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .instructions {
+        width: 100%
+    }
+
+    .statistics {
+        width: 100%;
+    }
+
+    .bottomMenu {
+        width: 100%;
+    }
+
+    .sheetsExport {
+        flex-direction: column;
+        width: 99.2%;
+    }
+}
